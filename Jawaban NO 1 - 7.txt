@@ -1,0 +1,38 @@
+1. standar arsitektur komunikasi berbasis web yang sering diterapkan dalam pengembangan layanan berbasis Web service yang berbasis arsitektur REST 
+   kemudian dikenal sebagai RESTful web services. Layanan web ini menggunakan metode HTTP untuk menerapkan konsep arsitektur REST.
+2. - JDK adalah sebuah paket aplikasi yang berisi JVM (Java Virtual Machine) + JRE (Java Runtime Environment) 
+     + berbagai aplikasi untuk proses pembuatan kode program Java. 
+   - JRE atau lengkapnya Java Runtime Environment adalah sebuah paket aplikasi yang berisi JVM (Java Virtual Machine) serta beberapa library 
+     kode program tambahan yang diperlukan untuk menjalankan aplikasi Java.
+   - JVM adalah aplikasi khusus yang harus diinstall agar sebuah komputer bisa menjalankan program yang ditulis dalam bahasa Java.
+3. public static void main (String[] args) merupakan elemen wajib yang harus ada dalam bahasa pemrograman java, karena tanpa adanya elemen tersebut, 
+   Program yang di buat dengan bahasa pemrograman java tidak akan berjalan dengan baik.
+4. - ArrayList secara internal menggunakan array dinamis untuk meyimpan elemen. 
+     Sementara LinkedList secara internal digunakan untuk menyimpan elemen dari daftar tertaut ganda.
+   - Manipulasi dengan ArrayList cenderung lambat karena secara internal menggunakan sebuah array. 
+     Jika elemen lainnya dipindahkan atau dihilangkan dari Array, maka seluruh bit akan bergeser ke memori. 
+     Sementara pada LinkedList lebih cepat dibanding ArrayList karena menggunakan linked list ganda, 
+     sehingga tidak diperlukan sedikit pergeseran dalam memori.
+   - Sebuah kelas ArrayList dapat menjadi seperti sebuah list karena hal tersebut hanya mengimplementasi List saja. 
+     Sementara kelas LinkedList dapat menjadi sebuah daftar dan antrian karena mengimplementasikan antarmuka List dan Deque.
+   - ArrayList lebih baik untuk menyimpan dan mengakses data sementara LinkedList lebih baik untuk manipulasi data.
+5. - Encapsulation atau pengkapsulan adalah konsep tentang pengikatan data atau metode berbeda yang disatukan atau “dikapsulkan” menjadi satu unit data.
+     Maksudnya, berbagai objek yang berada dalam class tersebut dapat berdiri sendiri tanpa terpengaruh oleh yang lainnya. 
+   - abstraction berarti menyembunyikan detail latar belakang dan hanya mewakili informasi yang diperlukan untuk dunia luar.
+     berarti memungkinkam seorang developer memerintahkan suatu fungsi, tanpa harus mengetahui bagaimana fungsi tersebut bekerja.
+   - Inheritance dalam konsep OOP adalah kemampuan untuk membentuk class baru yang memiliki fungsi turunan atau mirip dengan fungsi yang ada sebelumnya. 
+     Konsep ini menggunakan sistem hierarki atau bertingkat. Maksudnya, semakin jauh turunan atau subclass-nya, maka semakin sedikit kemiripan fungsinya.
+   - polymorphism adalah kemampuan suatu pesan atau data untuk diproses lebih dari satu bentuk. 
+     Salah satu ciri utama dari OOP adalah adanya polymorphism. Tanpa hal ini, suatu pemrograman tidak bisa dikatakan sebagai OOP. 
+6.  Abstract class adalah sebuah class setengah jadi (abstrak) yang memuat/memiliki method dan atrribut. Abstract class sebenarnya adalah sebuah class, sehingga memiliki semua sifat dari class biasa (punya konstruktor). Hanya saja sifatnya masih abstrak, karena itu biasanya method kosong/belum di implementasikan.
+    Namun Abstract class dapat mengimplementasikan method tersebut. Abstract class akan selalu menjadi superclass / hirarki tertinggi dari subclass-subclass-nya.
+
+    Sedangkan interface:
+    - Adalah sebuah blok signature kumpulan method tanpa tubuh (konstan).
+    - Sebuah definisi method yang umum/general yang dapat menghubungkan class-class yang berbeda.
+      Dengan kata lain, interface memungkinkan kita mengimplementasikan method yang sama terhadap class yang tidak ada hubungan sama sekali (tidak dalam satu hirarki)
+    - Oleh karena itu interface bukanlah sebuah class, walaupun memiliki ciri yang serupa dengan abstract class.
+7.  Method overloading artinya method dengan nama yang sama, namun memiliki parameter yang berbeda, 
+    dan method ini berada dalam sebuah class yang sama atau bisa juga berada dalam class yang lain yang terkait dalam hirarki inheritance.
+    Method overriding artinya memberikan implementasi yang baru dari suatu method pada subclass, 
+    jadi method ini berada pada class yang berbeda yang terkait dalam inheritance.
